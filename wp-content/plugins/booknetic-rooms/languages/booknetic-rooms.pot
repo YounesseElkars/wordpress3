@@ -1,0 +1,106 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"POT-Creation-Date: 2024-02-12 00:17+0400\n"
+"PO-Revision-Date: 2020-02-23 21:08+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../app\n"
+"X-Poedit-KeywordsList: bkntc__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Backend/Ajax.php:32
+msgid "Room Details"
+msgstr ""
+
+#: Backend/Ajax.php:55
+msgid "Room Not Found!"
+msgstr ""
+
+#: Backend/Controller.php:15 RoomAddon.php:52 RoomAddon.php:62 RoomAddon.php:67
+msgid "Rooms"
+msgstr ""
+
+#: Backend/Controller.php:16 Backend/view/modal/add_new.php:50
+msgid "ADD ROOM"
+msgstr ""
+
+#: Backend/Controller.php:18 RoomAddon.php:25
+msgid "Edit"
+msgstr ""
+
+#: Backend/Controller.php:21 RoomAddon.php:26
+msgid "Delete"
+msgstr ""
+
+#: Backend/Controller.php:26
+msgid "№"
+msgstr ""
+
+#: Backend/Controller.php:27
+msgid "TITLE"
+msgstr ""
+
+#: Backend/Controller.php:29
+msgid "Created At"
+msgstr ""
+
+#: Backend/view/modal/add_new.php:21
+msgid "Edit Room"
+msgstr ""
+
+#: Backend/view/modal/add_new.php:21
+msgid "Add Room"
+msgstr ""
+
+#: Backend/view/modal/add_new.php:48
+msgid "CANCEL"
+msgstr ""
+
+#: Backend/view/modal/add_new.php:50
+msgid "Save"
+msgstr ""
+
+#: Backend/view/tabs/appointment_tab.php:22
+msgid "Select rooms"
+msgstr ""
+
+#: Backend/view/tabs/room_add_new_details.php:19
+#: Backend/view/tabs/room_add_new_details.php:20
+msgid "Title"
+msgstr ""
+
+#: Backend/view/tabs/room_add_new_details.php:29
+msgid "Select services you want to associate with your room"
+msgstr ""
+
+#: Backend/view/tabs/service_add.php:18
+msgid "Select rooms you want to associate with your service"
+msgstr ""
+
+#: Listener.php:84
+msgid "This Room for the selected timeslot is already in use."
+msgstr ""
+
+#: Listener.php:109
+msgid "No Rooms Available For This time, please choose another time."
+msgstr ""
+
+#: RoomAddon.php:22
+msgid "Room Management"
+msgstr ""
+
+#: RoomAddon.php:24
+msgid "Add New"
+msgstr ""
+
+#: RoomAddon.php:27
+msgid "Rooms tab"
+msgstr ""

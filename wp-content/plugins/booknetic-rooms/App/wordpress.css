@@ -1,0 +1,75 @@
+.main_wrapper {
+  background-color: #f3f1f6 !important;
+}
+
+#wpadminbar,
+#adminmenuwrap,
+#adminmenuback,
+.woocommerce-layout__header {
+  display: none !important;
+}
+
+#booknetic_progress {
+  display: none !important;
+}
+
+#wpcontent {
+  margin-left: 0px !important;
+}
+
+/* Sidebar of Settings  */
+div.settings-left-menu {
+  display: none !important;
+}
+
+body > div.main_wrapper > div.row.mr-0 {
+  justify-content: space-around;
+}
+
+body , html {
+  background-color: #f3f1f6 !important;
+}
+
+body {
+  background-color: #f3f1f6 !important;
+	background: #f3f1f6 !important;
+}
+
+.main_loading_layout {
+  background-color: transparent !important;
+  background: #2a2a2a24 !important;
+  background-image: url(https://milo.ma/wp-content/plugins/booknetic-rooms/App/loading.gif) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 80px 80px !important; /* Set the size of the background image */
+
+}
+
+.left_side_menu {
+  display: none !important;
+}
+
+.top_side_menu {
+  display: none;
+}
+body > div.main_wrapper {
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+}
+#date_buttons {
+  width: 100%;
+}
+#date_buttons .date_buttons_span {
+  flex: 1;
+}
+#date_buttons .date_button {
+  flex: 1;
+}
+/* width adjustement for day selection button in calendar view */
+#fs-calendar
+  > div.fc-toolbar.fc-header-toolbar
+  > div.fc-left
+  > div
+  > button.fc-today-button.fc-button.fc-button-primary {
+  width: 100px !important;
+}

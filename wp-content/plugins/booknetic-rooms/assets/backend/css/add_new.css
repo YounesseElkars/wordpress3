@@ -1,0 +1,66 @@
+.fs-modal #roomColorPanel .color-rounded
+{
+    width: 40px;
+    height: 40px;
+
+    background: #000;
+
+    margin-left: 7px;
+    margin-right: 7px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.fs-modal #roomColorPanel .selected-color.color-rounded:after
+{
+    content: '\f00c';
+    font-family: "Font Awesome 5 Free";
+    color: #FFF;
+    font-weight: 600;
+    padding: 14px;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.fs-modal #roomColorPanel
+{
+    height: 360px;
+}
+
+.fs-modal #roomColorPanel > .fs-popover-content
+{
+    height: 305px;
+}
+
+.fs-modal .room-colors-line
+{
+    display: flex;
+    justify-content: center;
+}
+
+.fs-modal .color-r-1{ background: #53d56c !important; }
+.fs-modal .color-r-2{ background: #26c0d6 !important; }
+.fs-modal .color-r-3{ background: #fd9b78 !important; }
+.fs-modal .color-r-4{ background: #cc65aa !important; }
+.fs-modal .color-r-5{ background: #2078fa !important; }
+
+.fs-modal .color-r-6{ background: #947bbf !important; }
+.fs-modal .color-r-7{ background: #c9c2b8 !important; }
+.fs-modal .color-r-8{ background: #527dde !important; }
+.fs-modal .color-r-9{ background: #425a64 !important; }
+.fs-modal .color-r-10{ background: #ffbb44 !important; }
+
+.fs-modal .room_color
+{
+    position: absolute;
+    right: 20px;
+    bottom: 8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
